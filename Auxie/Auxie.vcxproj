@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ATEMError.cpp" />
+    <ClCompile Include="AuxieMem.cpp" />
+    <ClCompile Include="AuxieRegistry.cpp" />
+    <ClCompile Include="AuxieTaskbar.cpp" />
+    <ClCompile Include="AuxieXMLParser.cpp" />
+    <ClCompile Include="FileMonitor.cpp" />
+    <ClCompile Include="ConnectWin.cpp" />
+    <ClCompile Include="Group.cpp" />
+    <ClCompile Include="PushBottonProc.cpp" />
+    <ClCompile Include="XMLParser.cpp" />
+    <ClCompile Include="PushButton.cpp" />
+    <ClCompile Include="PushButtonList.cpp" />
+    <ClCompile Include="LiveButtonsWin.cpp" />
+    <ClCompile Include="PopupMenu.cpp" />
+    <ClCompile Include="LiveButtonsProc.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="TestProc.cpp" />
+    <ClCompile Include="Winwin.cpp" />
+    <ClCompile Include="ToggleProc.cpp" />
+    <ClCompile Include="ToggleWin.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="BMDSwitcherAPI_i.c" />
+    <ClCompile Include="ConnectProc.cpp" />
+    <ClCompile Include="MainWin.cpp" />
+    <ClCompile Include="AuxieATEM.cpp" />
+    <ClCompile Include="Registry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ATEMError.h" />
+    <ClInclude Include="AuxieMem.h" />
+    <ClInclude Include="AuxieRegistry.h" />
+    <ClInclude Include="AuxieTaskbar.h" />
+    <ClInclude Include="AuxieXMLParser.h" />
+    <ClInclude Include="AuxieXMLElements.h" />
+    <ClInclude Include="FileMonitor.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="ConnectWin.h" />
+    <ClInclude Include="Group.h" />
+    <ClInclude Include="PushButton.h" />
+    <ClInclude Include="PushButtonList.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="Winwin.h" />
+    <ClInclude Include="LiveButtonsWin.h" />
+    <ClInclude Include="PopupMenu.h" />
+    <ClInclude Include="ToggleWin.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="AuxieATEM.h" />
+    <ClInclude Include="BMDSwitcherAPI_h.h" />
+    <ClInclude Include="AuxieATEMInputNames.h" />
+    <ClInclude Include="Registry.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="XMLParser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Auxie.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Icons\Aux1.ico" />
+    <Image Include="..\Icons\Aux2.ico" />
+    <Image Include="..\Icons\Aux3.ico" />
+    <Image Include="..\Icons\Auxie256.ico" />
+    <Image Include="..\Icons\Auxie32.ico" />
+    <Image Include="..\Icons\Prog1.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3AA055D7-D991-4975-992B-00324792EE2F}</ProjectGuid>
+    <RootNamespace>Auxie</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;shlwapi.lib;comsuppw.lib;XmlLite.lib;comctl32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;shlwapi.lib;comsuppw.lib;XmlLite.lib;comctl32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

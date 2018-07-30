@@ -1,0 +1,78 @@
+//
+//	
+//	Created by Lemark S.
+//	Copyright (c) 2015 Mr. McByte. All rights reserved.
+//
+//
+
+#pragma once
+
+#define INPUT_NAME_LONG_CAMERA1 L"Camera 1"
+#define INPUT_NAME_SHORT_CAMERA1 L"Cam1"
+
+#define INPUT_NAME_LONG_CAMERA2 L"Camera 2"
+#define INPUT_NAME_SHORT_CAMERA2 L"Cam2"
+
+#define INPUT_NAME_LONG_CAMERA3 L"Camera 3"
+#define INPUT_NAME_SHORT_CAMERA3 L"Cam3"
+
+#define INPUT_NAME_LONG_CAMERA4 L"Camera 4"
+#define INPUT_NAME_SHORT_CAMERA4 L"Cam4"
+
+#define INPUT_NAME_LONG_CAMERA5 L"Camera 5"
+#define INPUT_NAME_SHORT_CAMERA5 L"Cam5"
+
+#define INPUT_NAME_LONG_CAMERA6 L"Camera 6"
+#define INPUT_NAME_SHORT_CAMERA6 L"Cam6"
+
+#define INPUT_NAME_LONG_CAMERA7 L"Camera 7"
+#define INPUT_NAME_SHORT_CAMERA7 L"Cam7"
+
+#define INPUT_NAME_LONG_CAMERA8 L"Camera 8"
+#define INPUT_NAME_SHORT_CAMERA8 L"Cam8"
+
+#define INPUT_NAME_LONG_COLORBARS L"Color Bars"
+#define INPUT_NAME_SHORT_COLORBARS L"Bars"
+
+#define INPUT_NAME_LONG_COLOR1 L"Color 1"
+#define INPUT_NAME_SHORT_COLOR1 L"Col1"
+
+#define INPUT_NAME_LONG_COLOR2 L"Color 2"
+#define INPUT_NAME_SHORT_COLOR2 L"Col2"
+
+#define INPUT_NAME_LONG_PROGRAM L"Program"
+#define INPUT_NAME_SHORT_PROGRAM L"Prog"
+
+#define INPUT_NAME_LONG_PREVIEW L"Preview"
+#define INPUT_NAME_SHORT_PREVIEW L"Prev"
+
+#define INPUT_NAME_LONG_CLEANFEED1 L"Clean Feed 1"
+#define INPUT_NAME_SHORT_CLEANFEED1 L"Cfd1"
+
+#define INPUT_NAME_LONG_CLEANFEED2 L"Clean Feed 2"
+#define INPUT_NAME_SHORT_CLEANFEED2 L"Cfd2"
+
+#define INPUT_NAME_LONG_AUX1 L"Auxiliary 1"
+#define INPUT_NAME_SHORT_AUX1 L"Aux1"
+
+#define INPUT_NAME_LONG_AUX2 L"Auxiliary 2"
+#define INPUT_NAME_SHORT_AUX2 L"Aux2"
+
+#define INPUT_NAME_LONG_AUX3 L"Auxiliary 3"
+#define INPUT_NAME_SHORT_AUX3 L"Aux3"
+
+
+// ---- KEYERS ---------------//
+
+#define INPUT_NAME_LONG_KEY1 L"Key 1"
+#define INPUT_NAME_SHORT_KEY1 L"Key1"
+
+#define INPUT_NAME_LONG_KEY2 L"Key 2"
+#define INPUT_NAME_SHORT_KEY2 L"Key2"
+
+#define INPUT_NAME_LONG_KEY3 L"Key 2"
+#define INPUT_NAME_SHORT_KEY3 L"Key2"
+
+#define INPUT_NAME_LONG_KEY4 L"Key 4"
+#define INPUT_NAME_SHORT_KEY4 L"Key4"
+

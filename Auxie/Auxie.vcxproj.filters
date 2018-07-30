@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ATEM">
+      <UniqueIdentifier>{a5e93577-c044-45e3-a454-8fa0a4c7d9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{c2256e0b-2923-42f7-8e46-f6c3c214cff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{bffff89a-844a-48d9-8b3a-f2ed83df5db6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AuxieMem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuxieRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuxieTaskbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuxieXMLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuxieATEM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BMDSwitcherAPI_i.c">
+      <Filter>ATEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ATEMError.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveButtonsWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LiveButtonsProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Winwin.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="PushButton.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="PushButtonList.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupMenu.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectProc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="TestProc.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLParser.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMonitor.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="PushBottonProc.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AuxieMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuxieRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuxieTaskbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuxieXMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuxieXMLElements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuxieATEM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BMDSwitcherAPI_h.h">
+      <Filter>ATEM</Filter>
+    </ClInclude>
+    <ClInclude Include="AuxieATEMInputNames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ATEMError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LiveButtonsWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Winwin.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="PushButton.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="PushButtonList.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupMenu.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLParser.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMonitor.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Auxie.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Icons\Auxie256.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Icons\Auxie32.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Icons\Aux1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Icons\Aux2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Icons\Aux3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Icons\Prog1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
